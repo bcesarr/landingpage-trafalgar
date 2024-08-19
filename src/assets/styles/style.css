@@ -1,0 +1,99 @@
+/* Importanto font do Google */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Mooli";
+}
+
+/* Topo da Página */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 85px;
+    color: rgba(31, 21, 52, 1);
+}
+
+.logo-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-conteudo h1 {
+    font-size: 24px;
+}
+
+.logo-conteudo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    color: white;
+    background-color: rgba(69, 143, 246, 1);
+    border-radius: 50%;
+}
+
+nav {
+    gap: 40px;
+}
+
+nav a:hover {
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+nav a:not(:hover) {
+    transition: 0.5s;
+}
+
+/* Hero da Página */
+
+.hero-conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 109px;
+}
+
+.icone-elemento-bolinhas {
+    margin-left: 10px;
+    margin-bottom: 690px;
+}
+
+.hero-info h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.hero-info p {
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.hero-info button {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.ilustracao1 {
+    width: 693px;
+    height: 598px;
+}
