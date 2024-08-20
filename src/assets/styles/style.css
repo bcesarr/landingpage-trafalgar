@@ -10,6 +10,23 @@
     font-family: "Mooli";
 }
 
+/* Declaração de cor de todos os h1, h2, h3 e p da página */
+h1 {
+    color: rgba(35, 51, 72, 1);
+}
+
+h2 {
+    color: rgba(0, 0, 0, 1);
+}
+
+h3 {
+    color: rgba(0, 0, 0, 1);
+}
+
+p {
+    color: rgba(125, 121, 135, 1);
+}
+
 /* Topo da Página */
 header {
     width: 100%;
@@ -18,7 +35,6 @@ header {
     align-items: center;
     margin-top: 56px;
     margin-bottom: 85px;
-    color: rgba(31, 21, 52, 1);
 }
 
 .logo-conteudo {
@@ -45,17 +61,27 @@ header {
 }
 
 nav {
+    display: flex;
     gap: 40px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(31, 21, 52, 1);
+    opacity: 50%;
 }
 
 nav a:hover {
     font-weight: 700;
     transition: 0.3s;
+    opacity: 100%;
 }
 
 nav a:not(:hover) {
     transition: 0.5s;
 }
+
 
 /* Hero da Página */
 
@@ -66,9 +92,13 @@ nav a:not(:hover) {
     gap: 109px;
 }
 
-.icone-elemento-bolinhas {
-    margin-left: 10px;
+.elemento-bolinhas-esquerda {
     margin-bottom: 690px;
+}
+
+.hero-info {
+    width: 1487px;
+    margin-left: 163px;
 }
 
 .hero-info h2 {
@@ -96,4 +126,5 @@ nav a:not(:hover) {
 .ilustracao1 {
     width: 693px;
     height: 598px;
+    margin-right: 163px;
 }
