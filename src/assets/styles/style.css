@@ -1,7 +1,7 @@
 /* Importanto font do Google */
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
-* {
+* {  /* Configurações de Toda a Página */
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -34,21 +34,19 @@ header {
     justify-content: space-around;
     align-items: center;
     margin-top: 56px;
-    margin-bottom: 85px;
 }
 
-.logo-conteudo {
+.logo-conteudo {  /* Toda a Parte da Ancora do que Engloba o Logo */
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 12px;
 }
 
-.logo-conteudo h1 {
+.logo-conteudo h1 {  /* Nome do Logo */
     font-size: 24px;
 }
 
-.logo-conteudo p {
+.logo-conteudo p {  /* Simbolo do Logo */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,56 +58,66 @@ header {
     border-radius: 50%;
 }
 
-nav {
+nav {  /* Menu de Navegação da Página */
     display: flex;
     gap: 40px;
 }
 
-nav a {
+nav a {  /* Links do Menu de Navegação */
     font-size: 18px;
     font-weight: 400;
     color: rgba(31, 21, 52, 1);
     opacity: 50%;
 }
 
-nav a:hover {
+nav a:hover {  /* Efeito ao Passar o Mouse */
     font-weight: 700;
     transition: 0.3s;
     opacity: 100%;
 }
 
-nav a:not(:hover) {
+nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
     transition: 0.5s;
 }
 
 
 /* Hero da Página */
 
-.hero-conteudo {
+.hero-conteudo {  /* Sessão Toda da Parte Hero */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 109px;
 }
 
-.elemento-bolinhas-esquerda {
+/* .elemento-bolinhas-esquerda {
+    width: 131.58px;
+    height: 115px;
+    margin-top: 160px;
     margin-bottom: 690px;
-}
+    opacity: 40%;
+} */
 
-.hero-info {
-    width: 1487px;
-    margin-left: 163px;
+.hero-info {  /* Toda a Div das Informações - Parte a Esquerda do Hero */
+    width: 445px;
+    height: 338px;
+    margin-top: 186px;
+    margin-left: 190px;
+    margin-right: 109px;
 }
 
 .hero-info h2 {
     font-size: 48px;
     font-weight: 700;
+    width: 427px;
+    line-height: 1.3;
     margin-bottom: 25px;
 }
 
 .hero-info p {
     font-size: 21px;
     font-weight: 300;
+    width: 445px;
+    line-height: 1.7;
     margin-bottom: 45px;
 }
 
@@ -123,8 +131,395 @@ nav a:not(:hover) {
     color: white;
 }
 
-.ilustracao1 {
+.ilustracao1 {  /* Imagem de Ilustração */
     width: 693px;
     height: 598px;
+    margin-top: 80px;
     margin-right: 163px;
 }
+
+
+/* Sessão Nossos Serviços */
+
+.nossos-servicos {  /* Sessão Toda da Parte Nossos Serviços */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 192px;
+}
+
+
+.servicos-titulo-paragrafo {  /* Parte que Pega o h2, o hr e o p */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.servicos-titulo-paragrafo h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.servicos-titulo-paragrafo hr {
+    width: 56px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    margin-bottom: 33px;
+}
+
+.servicos-titulo-paragrafo p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.servicos-cards-1 {  /* Parte dos Cards - (servicos-cards-1 pega os 3 primeiros de cima) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    margin-top: 80px;
+}
+
+.card-servicos {  /* Está Parte é das Informações Dentro dos Cards e os Cards em Si */
+    width: 350px;
+    height: 354px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+
+.card-servicos img {
+    margin-bottom: 25px;
+    margin-left: 38px;
+}
+
+.card-servicos h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 38px;
+    margin-bottom: 17px;
+}
+
+.card-servicos p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 38px;
+    line-height: 2;
+}
+
+.servicos-cards-2 {  /* Parte dos Cards - (servicos-cards-1 pega os 3 primeiros de cima) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    margin-top: 37px;
+    margin-bottom: 69px;
+}
+
+.nossos-servicos button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(69, 143, 246, 1);
+    text-align: center;
+}
+
+
+/* Sessão dos Prestadores de Serviços */
+
+.prestadores-cuidados-com-saude {  /* Toda a Sessão da Parte Prestadores de Serviços */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 137px;
+    margin-top: 220px;
+}
+
+.prestadores-cuidados-com-saude img {
+    width: 650px;
+    height: 477px;
+}
+
+.prestadores-cuidados-com-saude h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.prestadores-cuidados-com-saude hr {
+    width: 56px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    margin-top: 26px;
+    margin-bottom: 31px;
+}
+
+.prestadores-cuidados-com-saude p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 37px;
+}
+
+.prestadores-cuidados-com-saude button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(69, 143, 246, 1);
+    text-align: center;
+}
+
+
+/* Sessão do Download do App */
+
+.download-do-nosso-app {  /* Toda a Sessão da Parte Download do App */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 229px;
+    gap: 71px;
+}
+
+.download-do-nosso-app h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.download-do-nosso-app hr {
+    width: 56px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+}
+
+.download-do-nosso-app p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.download-do-nosso-app img {
+    width: 665px;
+    height: 434px;
+}
+
+.download-do-nosso-app button {  /* Todo o Molde do Notão de Download */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 60px;
+
+    background-color: transparent;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    border-radius: 55px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(69, 143, 246, 1);
+
+    gap: 14.79px;
+}
+
+.download-do-nosso-app button img {
+    width: 15.43px;
+    height: 18px;
+}
+
+
+/* Sessão dos Comentários */
+
+.sessao-comentarios {  /* Toda a Sessão da Parte Comentários */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 251px;
+}
+
+
+.card-comentario {  /* Parte do Card em Si e das Informações Dentro Dele */
+    width: 1120px;
+    height: 425px;
+    text-align: center;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.card-comentario h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 64px;
+}
+
+.card-comentario hr {
+    width: 56px;
+    margin-top: 25px;
+    margin-bottom: 66px;
+    margin-left: 530px;
+    margin-right: 530px;
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.card-comentario p {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: start;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 2;
+}
+
+
+.comentario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+
+.comentarista-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentarista-info img {
+    width: 141px;
+    height: 141px;
+    margin-right: 29px;
+}
+
+.comentarista-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1)
+}
+
+.comentarista-info span {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+
+.botoes-comentario{  /* Parte dos Botões de Setas e Slide de Seleção */
+    display: flex;
+    gap: 90px;
+    margin-top: 42px;
+}
+
+
+/* Sessão dos Artigos */
+
+.sessao-artigos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 216px;
+}
+
+.sessao-artigos h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.sessao-artigos hr {
+    margin-top: 26px;
+    margin-bottom: 79px;
+    width: 56px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+
+.argigos-cards {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 69px;
+}
+
+
+.card-artigo {
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+
+.card-artigo img {
+    width: 350px;
+    height: 240px;
+}
+
+.card-artigo h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-left: 33px;
+}
+
+.card-artigo p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 33px;
+    margin-bottom: 25px;
+    line-height: 2;
+}
+
+.card-artigo a {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(64, 137, 237, 1);
+    gap: 14px;
+    margin-left: 33px;
+}
+
+.card-artigo a img {
+    width: 15.43px;
+    height: 18px;
+}
+
+.sessao-artigos button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(69, 143, 246, 1);
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 129px;
+}
+
