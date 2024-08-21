@@ -379,16 +379,8 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
     border: 2px solid rgba(255, 255, 255, 1);
 }
 
-.card-comentario p {
-    font-size: 19px;
-    font-weight: 400;
-    text-align: start;
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 2;
-}
 
-
-.comentario {
+.comentario {  /* Div da parte debaixo do card, englobando tudo: foto, nome, local e paragrafo(comentário) */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -396,7 +388,7 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
 }
 
 
-.comentarista-info {
+.comentarista-info {  /* Div somente do comentarista, pegando a parte da foto, nome e local */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -421,6 +413,15 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
 }
 
 
+.comentario p {  /* Paragrafo do comentário da pessoa / Faz parte da div "comentario" */
+    font-size: 19px;
+    font-weight: 400;
+    text-align: start;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 2;
+}
+
+
 .botoes-comentario{  /* Parte dos Botões de Setas e Slide de Seleção */
     display: flex;
     gap: 90px;
@@ -430,7 +431,7 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
 
 /* Sessão dos Artigos */
 
-.sessao-artigos {
+.sessao-artigos {  /* Sessão Falando Sobre Artigos com 3 Cards */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -452,14 +453,14 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
 }
 
 
-.argigos-cards {
+.argigos-cards {  /* Div que engloba os 3 cards */
     display: flex;
     gap: 35px;
     margin-bottom: 69px;
 }
 
 
-.card-artigo {
+.card-artigo {  /* Div dos cards (engloba todo o molde do card) */
     width: 350px;
     height: 512px;
     border-radius: 20px;
@@ -504,7 +505,7 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
     height: 18px;
 }
 
-.sessao-artigos button {
+.sessao-artigos button {  /* Botão da sessão */
     width: 200px;
     height: 60px;
     background-color: transparent;
@@ -523,3 +524,104 @@ footer {
     margin-top: 129px;
 }
 
+.div-background {  /* Div que esta por dentro do footer. Pega toda a parte azul do footer e o que esta nela */
+    height: 432px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+}
+
+.div-footer-trafalgar>.logo-conteudo {  /* Pegando somente a parte do logo do footer */
+    margin-bottom: 17px;
+}
+
+.div-footer-trafalgar>.logo-conteudo p {  /* Mudando a cor do Logo da Trafalgar no footer */
+    font-size: 26px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(91, 155, 243, 1);
+    padding-top: 2px;
+    margin-bottom: 0px;
+}
+
+.div-footer-trafalgar>.logo-conteudo h2 {  /* Mudando a cor do nome da Trafalgar no footer */
+    color: rgba(255, 255, 255, 1);                                
+}
+
+.div-footer-trafalgar p {  /* Paragrafo da parte da trafalgar no footer, lado esquerdo */
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.7;
+    margin-bottom: 31px;
+}
+
+.div-footer-trafalgar span {  /* Parte dos direitos reservados, logo abaixo do paragrafo da trafalgar */
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.company {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.company h3 {  /* Titulo da parte Company no Footer */
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+
+.company a {  /* Links da parte Company */
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    line-height: 2.2;
+}
+
+
+.region {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.region h3 {  /* Titulo da parte Region no Footer */
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+
+.region a {  /* Links da parte Region */
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    line-height: 2.2;
+}
+
+
+.help {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.help h3 {  /* Titulo da parte Help no Footer */
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+
+.help a {  /* Links da parte Help */
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    line-height: 2.2;
+}
