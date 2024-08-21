@@ -1,5 +1,5 @@
 /* Importanto font do Google */
-@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {  /* Configurações de Toda a Página */
     margin: 0;
@@ -7,7 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     border: none;
-    font-family: "Mooli";
+    font-family: "Mulish", sans-serif;
 }
 
 /* Declaração de cor de todos os h1, h2, h3 e p da página */
