@@ -31,9 +31,11 @@ p {
 header {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: 56px;
+    padding: 0px 60px;
+    gap: 512px
 }
 
 .logo-conteudo {  /* Toda a Parte da Ancora do que Engloba o Logo */
@@ -513,16 +515,21 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
 /* Footer */
 
 footer {
+    width: 100%;
     margin-top: 129px;
 }
 
 .div-background {  /* Div que esta por dentro do footer. Pega toda a parte azul do footer e o que esta nela */
     height: 432px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 
+}
+
+.div-footer-trafalgar {
+    margin-right: 145px;
 }
 
 .div-footer-trafalgar>.logo-conteudo {  /* Pegando somente a parte do logo do footer */
@@ -560,6 +567,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-right: 165px;
 }
 
 .company h3 {  /* Titulo da parte Company no Footer */
@@ -581,6 +589,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-right: 165px;
 }
 
 .region h3 {  /* Titulo da parte Region no Footer */
