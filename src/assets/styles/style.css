@@ -447,7 +447,7 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
 }
 
 
-.argigos-cards {  /* Div que engloba os 3 cards */
+.artigos-cards {  /* Div que engloba os 3 cards */
     display: flex;
     gap: 35px;
     margin-bottom: 69px;
