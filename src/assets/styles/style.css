@@ -89,14 +89,6 @@ nav a:not(:hover) {  /* Efeito ao Tirar o Mouse de Cima do Link */
     align-items: center;
 }
 
-/* .elemento-bolinhas-esquerda {
-    width: 131.58px;
-    height: 115px;
-    margin-top: 160px;
-    margin-bottom: 690px;
-    opacity: 40%;
-} */
-
 .hero-info {  /* Toda a Div das Informações - Parte a Esquerda do Hero */
     width: 445px;
     height: 338px;
